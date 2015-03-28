@@ -2,7 +2,7 @@ Learning Sublime Text (系统学习ST)
 =======================
 
 编辑、整理 By Xujiajun
-
+- - -
 前言
 ----
 如何编辑本文？[请点击这里](https://github.com/xujiajun/Learning-Sublime-Text/edit/master/README.md)
@@ -47,6 +47,79 @@ Learning Sublime Text (系统学习ST)
  
 4、常用命令
 ------------------------
+
+<table>
+  <tr>
+		<td>cmd+p (cmd+t)</td>
+		<td>文件、行数、函数定位</td>
+	</tr>
+	
+	
+	<tr>
+		<td>cmd+d</td>
+		<td>多选</td>
+	</tr>
+	
+	
+	<tr>
+		<td>cmd+r</td>
+		<td>函数定位</td>
+	</tr>
+	
+	
+	<tr>
+		<td>ctrl+g</td>
+		<td>行数定位</td>
+	</tr>
+	
+	
+	<tr>
+    <td>cmd+]/[ (shift+tab)</td>
+    <td>行缩进</td>
+</tr>
+
+<tr>
+    <td>cmd+shift+v</td>
+    <td>复制（带格式化）</td>
+</tr>
+
+<tr>
+    <td>cmd+shift+t</td>
+    <td>回退</td>
+</tr>
+
+<tr>
+    <td>cmd+control+⬆/⬇</td>
+    <td>行上下移动</td>
+</tr>
+    
+ <tr>
+     <td>cmd+shift+d </td>
+     <td>复制光标当前行</td>
+ </tr>
+     
+ <tr>
+     <td>cmd+X(shift+control+k)</td>
+     <td>删除光标当前行</td>
+ </tr>
+    
+ <tr>
+   <td>cmd + f </td>
+   <td>查找当前文件</td>
+ </tr>
+      
+ <tr>
+    <td>cmd + option + 2</td>
+    <td>把屏幕分成2份  （其他同理）</td>
+ </tr>
+ 
+ <tr>
+    <td>cmd + k + b</td>
+    <td>开关边侧栏</td>
+ </tr>
+ 
+</table>
+-----------------------
 5、命令行工具
 -----------------------
 6、自定义配置
