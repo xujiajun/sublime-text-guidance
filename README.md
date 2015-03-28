@@ -35,7 +35,16 @@ Learning Sublime Text (系统学习ST)
 
 3、主题
 ------------------------
-
+ 安装Colorsublime-Plugin来扩展主题
+ 
+ 0、打开ST的命令面板  ctl+shift+p (Windows/Linux) or ⇧+⌘+p (OSX)
+ 
+ 1、选择Colorsublime: Install Theme
+ 
+ 2、用箭头键来浏览各个主题、你可以实时看到切换的主题变化！
+ 
+ [Colorsublime官网](http://colorsublime.com/)
+ 
 4、常用命令
 ------------------------
 5、命令行工具
