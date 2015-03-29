@@ -132,22 +132,22 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 
 6、自定义配置
 ------------------------
-{
-	"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
-	"create_window_at_startup": false,
-	"font_size": 15,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage",
-		"Markdown"
-	],
-	"show_debug": true,
-	"show_encoding": true,
-	"show_full_path": true,
-	"translate_tabs_to_spaces": true
-}
+	{
+		"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
+		"create_window_at_startup": false,
+		"font_size": 15,
+		"highlight_line": true,
+		"highlight_modified_tabs": true,
+		"ignored_packages":
+		[
+			"Vintage",
+			"Markdown"
+		],
+		"show_debug": true,
+		"show_encoding": true,
+		"show_full_path": true,
+		"translate_tabs_to_spaces": true
+	}
 
 7、Package Control安装以及使用
 -------------------------
