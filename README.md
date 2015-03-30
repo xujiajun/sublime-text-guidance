@@ -151,7 +151,7 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 
 7、Package Control安装以及使用
 -------------------------
-mac下opt + `或者 linux/windows contol + ` 或者 菜单栏选择View > Show Console
+mac下opt+` 或者 菜单栏选择View > Show Console
 	
 >ST3:
 
@@ -164,5 +164,12 @@ mac下opt + `或者 linux/windows contol + ` 或者 菜单栏选择View > Show C
 
 8、插件安装以及使用
 -------------------------
+
+0、shift + cmd + p 打开命令面板
+
+1、输入 “Package Control: Install Package” 命令或者install 关键词找到 “Package Control: Install Package”
+
+2、输入安装插件的简写或全拼,找到后回车安装
+
 9、定制代码片段
 --------------------------
