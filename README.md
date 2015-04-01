@@ -11,8 +11,20 @@ Learning Sublime Text (系统学习ST)
 
 如何发pull Requests 作出贡献? [请点击这里] (https://github.com/xujiajun/Learning-Sublime-Text/pulls)
 
-1、Why Sublime Text?
-----
+目录导航
+---
+- [1、Why Sublime Text?](#why-st)
+- [2、Sublime Text 安装以及简介](#st-install)
+- [3、主题](#st-theme)
+- [4、常用命令](#st-command)
+- [5、命令行工具](#st-command-tool)
+- [6、自定义配置](#st-preference)
+- [7、Package Control安装以及管理](#st-pc-install)
+- [8、插件安装以及使用](#st-plugin-install)
+- [9、定制代码片段](#st-snippet)
+
+<h2 id="why-st">1、Why Sublime Text?</h2>
+
  0、高效（启动快、快键键强大）
 
  1、扩展性强（插件丰富）
@@ -27,14 +39,14 @@ Learning Sublime Text (系统学习ST)
  
  6、支持自定义
 
-2、Sublime Text 安装以及简介
-------
- Sublime Text 2 下载地址：[http://www.sublimetext.com/2]
- 
- Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
+<h2 id="st-install">2、Sublime Text 安装以及简介</h2>
 
-3、主题
-------
+Sublime Text 2 下载地址：[http://www.sublimetext.com/2]
+ 
+Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
+
+<h2 id="st-theme">3、主题</h2>
+
  安装Colorsublime-Plugin来扩展主题
  
  0、打开ST的命令面板  ctl+shift+p (Windows/Linux) or ⇧+⌘+p (OSX)
@@ -45,8 +57,8 @@ Learning Sublime Text (系统学习ST)
  
  [Colorsublime官网](http://colorsublime.com/)
  
-4、常用命令
---------
+<h2 id="st-command">4、常用命令</h2>
+
 <table>
   <tr>
      <td>cmd+p (cmd+t)</td>
@@ -104,8 +116,8 @@ Learning Sublime Text (系统学习ST)
  </tr>
 </table>
 
-5、命令行工具
------------------------
+<h2 id="st-command-tool">5、命令行工具</h2>
+
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 **用法**
@@ -130,8 +142,8 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 
  文件名可以通过加:line或者:line:column后缀来指定打开的定位。
 
-6、自定义配置
-------------------------
+<h2 id="st-preference">6、自定义配置</h2>
+
 	{
 		"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
 		"create_window_at_startup": false,
@@ -149,8 +161,8 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 		"translate_tabs_to_spaces": true
 	}
 
-7、Package Control安装以及使用
--------------------------
+<h2 id="st-pc-install">7、Package Control安装以及使用</h2>
+
 mac下opt+` 或者 菜单栏选择View > Show Console
 	
 >ST3:
@@ -162,8 +174,7 @@ mac下opt+` 或者 菜单栏选择View > Show Console
 
 	import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
 
-8、插件安装以及使用
--------------------------
+<h2 id="st-plugin-install">8、插件安装以及使用</h2>
 
 0、shift + cmd + p 打开命令面板
 
@@ -171,5 +182,4 @@ mac下opt+` 或者 菜单栏选择View > Show Console
 
 2、输入安装插件的简写或全拼,找到后回车安装
 
-9、定制代码片段
---------------------------
+<h2 id="st-snippet">9、定制代码片段</h2>
