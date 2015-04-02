@@ -183,3 +183,37 @@ mac下opt+` 或者 菜单栏选择View > Show Console
 2、输入安装插件的简写或全拼,找到后回车安装
 
 <h2 id="st-snippet">9、定制代码片段</h2>
+
+在编写代码的时候，有遇到反复使用的代码片段，这时候就需要复制、黏贴，大大影响效率。我们利用Sublime Text的snippet功能,就能很好的解决这一问题.
+
+如何创建？Tools > New Snippet
+会出现如下：
+
+	<snippet>
+	    <content><![CDATA[
+	Hello, ${1:this} is a ${2:snippet}.
+	]]></content>
+	    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	    <!-- <tabTrigger>hello</tabTrigger> -->
+	    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+	    <!-- <scope>source.python</scope> -->
+	</snippet>
+
+看不懂？ok我们看下例子
+
+创建我的第一个Snippet：
+
+	<snippet>
+	    <content><![CDATA[ 你需要插入的代码片段${1:name} ]]></content>
+	    <!-- 可选：快捷键，利用Tab自动补全代码的功能,这里你输入superu即可触发 -->
+	    <tabTrigger>superu</tabTrigger>
+	    <!-- 可选：使用范围，不填写代表对所有文件有效。 -->
+	    <scope>source.python</scope>
+	    <!-- 可选：在snippet菜单中的显示说明（支持中文）。如果不定义，菜单则显示当前文件的文件名。 -->
+	    <description>My first Snippet</description>
+	</snippet>
+
+${1:name}表示代码插入后，光标所停留的位置，可同时插入多个。其中:name为自定义参数（可选）。
+
+${2}表示代码插入后，按Tab键，光标会根据顺序跳转到相应位置（以此类推）。
+
