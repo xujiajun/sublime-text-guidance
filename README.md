@@ -116,6 +116,18 @@ Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
     <td>cmd + k + b</td>
     <td>开关边侧栏</td>
  </tr>
+  <tr>
+    <td>cmd + 回车</td>
+    <td>插入行之后</td>
+ </tr>
+ <tr>
+    <td>cmd + Shift+回车</td>
+    <td>插入行之前</td>
+ </tr>
+  <tr>
+    <td>cmd + 数字</td>
+    <td>tab切换</td>
+ </tr>
 </table>
 
 <h2 id="st-command-tool">5、命令行工具</h2>
