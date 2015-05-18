@@ -61,111 +61,30 @@ Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
  
 <h2 id="st-command">4、常用命令</h2>
 
-##Mac下：
-<table>
-  <tr>
-     <td>cmd+p (cmd+t)</td>
-     <td>文件、行数、函数定位</td>
-  </tr>
-<tr>
-	<td>cmd+d</td>
-	<td>多选</td>
-</tr>
-<tr>
-	<td>cmd+r</td>
-	<td>函数定位</td>
-</tr>
-<tr>
-	<td>ctrl+g</td>
-	<td>行数定位</td>
-</tr>
-<tr>
-    <td>cmd+]/[ (shift+tab)</td>
-    <td>行缩进</td>
-</tr>
-<tr>
-    <td>cmd+shift+v</td>
-    <td>复制[带格式化]</td>
-</tr>
 
-<tr>
-    <td>cmd+shift+t</td>
-    <td>回退</td>
-</tr>
-
-<tr>
-    <td>cmd+control+⬆/⬇</td>
-    <td>行上下移动</td>
-</tr>
- <tr>
-     <td>cmd+shift+d </td>
-     <td>复制光标当前行</td>
- </tr>
- <tr>
-     <td>cmd+X(shift+control+k)</td>
-     <td>删除光标当前行</td>
- </tr>
- <tr>
-   <td>cmd + f </td>
-   <td>查找当前文件</td>
- </tr>
- <tr>
-    <td>cmd + option + 2</td>
-    <td>把屏幕分成2份  （其他同理）</td>
- </tr>
- <tr>
-    <td>cmd + k + b</td>
-    <td>开关边侧栏</td>
- </tr>
-  <tr>
-    <td>cmd + 回车</td>
-    <td>插入行之后</td>
- </tr>
- <tr>
-    <td>cmd + Shift+回车</td>
-    <td>插入行之前</td>
- </tr>
-  <tr>
-    <td>cmd + 数字</td>
-    <td>tab切换</td>
- </tr>
-</table>
-
-##Win/Ubuntu下：
-
-
-|Ctrl+Shift+P：           |                                  打开命令面板|
-|:--------------------------|:---------------------------------------------------------|
-|Ctrl+P：                  |                                      搜索项目中的文件|
-|Ctrl+G：                   |                                    跳转到第几行|
-|Ctrl+W：                    |                                  关闭当前打开文件|
-|Ctrl+Shift+W：               |                           关闭所有打开文件|
-|Ctrl+Shift+V：                |                           粘贴并格式化|
-|Ctrl+D：                       |                               选择单词，重复可增加选择下一个相同的单词|
-|Ctrl+L：                        |                               选择行，重复可依次增加选择下一行|
-|Ctrl+Shift+L：                   |                         选择多行|
-|Ctrl+Shift+Enter：              |                      在当前行前插入新行|
-|Ctrl+M：                         |                             跳转到对应括号|
-|Ctrl+U：                          |                            软撤销，撤销光标位置|
-|Ctrl+J：                           |                            选择标签内容|
-|Ctrl+F：                            |                          查找内容|
-|Ctrl+Shift+F：                       |                    查找并替换|
-|Ctrl+H：                              |                        替换|
-|Ctrl+R：                               |                       前往 method|
-|Ctrl+N：                                 |                     新建窗口|
-|Ctrl+K+B：                                |                开关侧栏|
-|Ctrl+Shift+M：                             |            选中当前括号内容，重复可选着括号本身|
-|Ctrl+F2：                                   |                 设置/删除标记|
-|Ctrl+/：                                     |                  注释当前行|
-|Ctrl+Shift+/：                                |           当前位置插入注释|
-|Ctrl+Alt+/：                                   |            块注释，并Focus到首行，写注释说明用的|
-|F11：                                           |                  全屏|
-|Shift+F11：                                      |           全屏免打扰模式，只编辑当前文件|
-|Alt+F3：                                          |            选择所有相同的词|
-|Alt+Shift+数字：                                   |    分屏显示|
-|Alt+数字：                                          |        切换打开第N个文件|
-|Ctrl+Tab：                                           |       切换tab|
-|Ctrl+Shift+上下键                                     | 可替换行|
+|Win/Ubuntu                          |                                  Mac |      注解   |
+|:--------------------------|:---------------------------------------------|:------------|
+|Ctrl+Shift+P：                  |     Cmd+Shift+p|                                      打开命令面板|
+|Ctrl+P：                  |                          Cmd+P          |  搜索项目中的文件|
+|Ctrl+G：                   |                             Ctrl+g |      跳转到第几行|
+|Ctrl+W：                    |                                  Cmd+w|关闭当前打开文件|
+|Ctrl+Shift+W：               |                           Cmd+Shift+w|关闭所有打开文件|
+|Ctrl+Shift+V：                |                           Cmd+Shift+v|粘贴并格式化|
+|Ctrl+D：                       |                               Cmd+d|选择单词，重复可增加选择下一个相同的单词|
+|Ctrl+L：                        |                               Cmd+l|选择行，重复可依次增加选择下一行|
+|Ctrl+Shift+L：                   |                         Cmd+Shift+l|选择多行|
+|Ctrl+Shift+Enter：              |                      Cmd+Shift+Enter|在当前行前插入新行|
+|Ctrl+F：                            |                  Cmd+f|        查找内容|
+|Ctrl+Shift+F：                       |                    Cmd+Shift+f|查找并替换|
+|Ctrl+H：                              |                        Cmd+H|替换|
+|Ctrl+R：                               |                       Cmd+r|前往 method|
+|Ctrl+N：                                 |                     Cmd+N|新建窗口|
+|Ctrl+K+B：                                |                Cmd+K+B|开关侧栏|
+|Ctrl+/：                                     |                  Cmd+/|注释当前行|
+|Ctrl+Shift+/：                                |            Cmd+fn+/|当前位置插入注释|
+|Alt+Shift+数字：                                   |    Cmd+option+num|分屏显示|
+|Alt+数字：                                          |        Cmd+num|切换打开第N个文件|
+|Ctrl+Shift+上下键                                     | Cmd+control+上下键|可替换行|
 <h2 id="st-command-tool">5、命令行工具</h2>
 
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
