@@ -81,7 +81,6 @@ Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
 |Ctrl+N：                                 |                     Cmd+N|新建窗口|
 |Ctrl+K+B：                                |                Cmd+K+B|开关侧栏|
 |Ctrl+/：                                     |                  Cmd+/|注释当前行|
-|Ctrl+Shift+/：                                |            Cmd+fn+/|当前位置插入注释|
 |Alt+Shift+数字：                                   |    Cmd+option+num|分屏显示|
 |Alt+数字：                                          |        Cmd+num|切换打开第N个文件|
 |Ctrl+Shift+上下键                                     | Cmd+control+上下键|可替换行|
