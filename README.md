@@ -110,7 +110,6 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 
  文件名可以通过加:line或者:line:column后缀来指定打开的定位。
  
- 更多介绍，请观看视频：http://superu.org/course/2/learn#lesson/9
 <h2 id="st-preference">6、自定义配置</h2>
 
 	{
@@ -129,6 +128,8 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 		"show_full_path": true,
 		"translate_tabs_to_spaces": true
 	}
+
+PS：[分享下我的配置](https://github.com/xujiajun/SublimeText3-config)
 
 <h2 id="st-pc-install">7、Package Control安装以及使用</h2>
 
