@@ -1,7 +1,7 @@
 Learning Sublime Text (系统学习ST)
 =======================
 
-编辑、整理 By Xujiajun
+编辑、整理 By Xujiajun （相关视频整理 http://www.xitongxue.com/course/2）
 - - -
 前言
 ----
@@ -39,14 +39,14 @@ Learning Sublime Text (系统学习ST)
  
  6、支持自定义
  
-<b>更多介绍，请观看视频</b>：http://superu.org/course/2/learn#lesson/3
+<b>更多介绍，请观看视频</b>：http://www.xitongxue.com/course/2/learn#lesson/29
 <h2 id="st-install">2、Sublime Text 安装以及简介</h2>
 
 Sublime Text 2 下载地址：[http://www.sublimetext.com/2]
  
 Sublime Text 3 下载地址：[http://www.sublimetext.com/3] [推荐]
 
-<b>更多介绍，请观看视频</b>: http://superu.org/course/2/learn#lesson/8
+<b>更多介绍，请参看</b>: http://www.xitongxue.com/course/2/learn#lesson/27
 <h2 id="st-theme">3、主题</h2>
 
  安装Colorsublime-Plugin来扩展主题
